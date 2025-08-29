@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Six Siege - Callouts Trainer</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>R6 Siege Callouts</h1>
+            <p class="subtitle">Master every map callout for your bootcamp</p>
+        </header>
+
+        <div class="controls">
+            <div class="map-selector">
+                <label for="mapSelect">Select Map:</label>
+                <select id="mapSelect">
+                    <option value="">Choose a map...</option>
+
+                    <!-- Add more maps as needed -->
+                </select>
+            </div>
+
+            <div class="score-section">
+                <div class="score-item">
+                    <div class="score-number" id="correctScore">0</div>
+                    <div>Correct</div>
+                </div>
+                <div class="score-item">
+                    <div class="score-number" id="totalScore">0</div>
+                    <div>Total</div>
+                </div>
+                <button class="reset-btn" id="resetBtn">Reset</button>
+            </div>
+        </div>
+
+        <div class="game-modes">
+            <button class="mode-btn active" id="practiceMode">Practice Mode</button>
+            <button class="mode-btn" id="quizMode">Quiz Mode</button>
+        </div>
+
+        <div class="game-area">
+            <div class="map-container" id="mapContainer">
+                <img class="map-image" id="mapImage" src="" alt="Map" style="display: none;">
+                <!-- Callout overlays will be dynamically added here -->
+            </div>
+
+            <div class="instructions" id="instructions">
+                <p><strong>Instructions:</strong> Select a map to begin. In Practice Mode, click on the highlighted areas to reveal callout names. In Quiz Mode, try to click on the correct location when prompted!</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="../js/script.js"></script>
+</body>
+</html>
