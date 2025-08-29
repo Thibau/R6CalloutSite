@@ -635,9 +635,9 @@ const mapData = {
                 image: '../images/siege/chalet/chalet-groundfloor/games-lounge.PNG'
             },
             {
-                id: 'cha_gf_hallway',
+                id: 'cha_gf_halfwall',
                 name: 'Hallway',
-                image: '../images/siege/chalet/chalet-groundfloor/hallway.PNG'
+                image: '../images/siege/chalet/chalet-groundfloor/halfwall.PNG'
             },
             {
                 id: 'cha_gf_kitchen',
@@ -1203,9 +1203,9 @@ const mapData = {
                 image: '../images/siege/coastline/coastline-topfloor/default.PNG'
             },
             {
-                id: 'co_2f_hallway',
-                name: 'Hallway',
-                image: '../images/siege/coastline/coastline-topfloor/hallway.PNG'
+                id: 'co_2f_halfwall',
+                name: 'Halfwall',
+                image: '../images/siege/coastline/coastline-topfloor/halfwall.PNG'
             },
             {
                 id: 'co_2f_hall-of-fame',
@@ -1412,9 +1412,9 @@ const mapData = {
                 image: '../images/siege/kafe/kafe-secondfloor/green-train.PNG'
             },
             {
-                id: 'kafe_2f_hall',
-                name: 'Hall',
-                image: '../images/siege/kafe/kafe-secondfloor/hall.PNG'
+                id: 'kafe_2f_hell',
+                name: 'Hell',
+                image: '../images/siege/kafe/kafe-secondfloor/hell.PNG'
             },
             {
                 id: 'kafe_2f_laundry',
@@ -1947,12 +1947,12 @@ const mapData = {
             {
                 id: 'labs_gf_cafeteria-hallway',
                 name: 'Cafeteria Hallway',
-                image: '../images/siege/labs/labs-groundfloor/cafeteria-hallway.PNG'
+                image: '../images/siege/labs/labs-groundfloor/cafetaria-hallway.PNG'
             },
             {
                 id: 'labs_gf_cafeteria',
                 name: 'Cafeteria',
-                image: '../images/siege/labs/labs-groundfloor/cafeteria.PNG'
+                image: '../images/siege/labs/labs-groundfloor/cafetaria.PNG'
             },
             {
                 id: 'labs_gf_control-room',
@@ -2244,9 +2244,9 @@ const mapData = {
                 image: '../images/siege/oregon/oregon-groundfloor/generator.PNG'
             },
             {
-                id: 'or_gf_hallway',
-                name: 'Hallway',
-                image: '../images/siege/oregon/oregon-groundfloor/hallway.PNG'
+                id: 'or_gf_halfwall',
+                name: 'Halfwall',
+                image: '../images/siege/oregon/oregon-groundfloor/halfwall.PNG'
             },
             {
                 id: 'or_gf_kitchen',
@@ -2513,7 +2513,7 @@ const mapData = {
             {
                 id: 'out_2f_office-feethole',
                 name: 'Office Feethole',
-                image: '../images/siege/outback/outback-topfloor/office-feethole.PNG'
+                image: '../images/siege/outback/outback-topfloor/office-feetholes.PNG'
             },
             {
                 id: 'out_2f_party',
