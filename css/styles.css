@@ -99,19 +99,27 @@
 
         .map-container {
             position: relative;
-            display: inline-block;
-            margin: 0 auto;
-            max-width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px auto;
+            width: 800px;
+            height: 600px;
             border: 2px solid #444;
             border-radius: 4px;
             overflow: hidden;
+            background-color: #1a1a1a;
         }
 
         .map-image {
             max-width: 100%;
+            max-height: 100%;
+            width: auto;
             height: auto;
             display: block;
+            object-fit: contain;
         }
+
 
         .callout-overlay {
             position: absolute;
@@ -209,5 +217,105 @@
 
             h1 {
                 font-size: 2rem;
+            }
+        }
+        .answer-section {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .input-group {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        #calloutInput {
+            background-color: #3a3a3a;
+            color: white;
+            border: 2px solid #ff6b35;
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 1rem;
+            min-width: 250px;
+            text-align: center;
+        }
+
+        #calloutInput:focus {
+            outline: none;
+            border-color: #ff8c42;
+            box-shadow: 0 0 5px rgba(255, 107, 53, 0.3);
+        }
+
+        #submitBtn, #skipBtn {
+            background-color: #ff6b35;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+        }
+
+        #skipBtn {
+            background-color: #666;
+        }
+
+        #submitBtn:hover {
+            background-color: #ff8c42;
+        }
+
+        #skipBtn:hover {
+            background-color: #777;
+        }
+
+        .feedback {
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 6px;
+            min-height: 20px;
+        }
+
+        .feedback.correct {
+            color: #4caf50;
+            background-color: rgba(76, 175, 80, 0.1);
+            border: 1px solid #4caf50;
+        }
+
+        .feedback.incorrect {
+            color: #f44336;
+            background-color: rgba(244, 67, 54, 0.1);
+            border: 1px solid #f44336;
+        }
+
+        @media (max-width: 768px) {
+            .input-group {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            #calloutInput {
+                min-width: 200px;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .map-container {
+                width: 90vw;
+                height: calc(90vw * 0.75); /* Maintains 4:3 aspect ratio */
+                max-width: 800px;
+                max-height: 600px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .map-container {
+                width: 95vw;
+                height: calc(95vw * 0.75);
             }
         }

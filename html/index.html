@@ -18,8 +18,6 @@
                 <label for="mapSelect">Select Map:</label>
                 <select id="mapSelect">
                     <option value="">Choose a map...</option>
-
-                    <!-- Add more maps as needed -->
                 </select>
             </div>
 
@@ -42,9 +40,18 @@
         </div>
 
         <div class="game-area">
-            <div class="map-container" id="mapContainer">
-                <img class="map-image" id="mapImage" src="" alt="Map" style="display: none;">
-                <!-- Callout overlays will be dynamically added here -->
+            <div class="map-container" id="mapContainer" style="display: none;">
+                <img class="map-image" id="mapImage" src="" alt="Map">
+            </div>
+
+            <!-- Answer input section -->
+            <div class="answer-section" id="answerSection" style="display: none;">
+                <div class="input-group">
+                    <input type="text" id="calloutInput" placeholder="Type the callout name..." autocomplete="off">
+                    <button id="submitBtn">Submit</button>
+                    <button id="skipBtn">Skip</button>
+                </div>
+                <div id="feedback" class="feedback"></div>
             </div>
 
             <div class="instructions" id="instructions">
@@ -52,7 +59,6 @@
             </div>
         </div>
     </div>
-
 
     <script type="module" src="../js/script.js"></script>
 </body>

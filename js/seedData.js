@@ -2564,6 +2564,685 @@ const mapData = {
             //#endregion
         ]
     },
+    skyscraper: {
+        name: 'Skyscraper',
+        callouts: [
+            //#region Skyscraper Groundfloor
+
+            {
+                id: 'sky_gf_back-stairs',
+                name: 'Back Stairs',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/back-stairs.PNG'
+            },
+            {
+                id: 'sky_gf_bar',
+                name: 'Bar',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/bar.PNG'
+            },
+            {
+                id: 'sky_gf_bath',
+                name: 'Bath',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/bath.PNG'
+            },
+            {
+                id: 'sky_gf_bbq',
+                name: 'BBQ',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/bbq.PNG'
+            },
+            {
+                id: 'sky_gf_bbq-hall',
+                name: 'BBQ Hall',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/bbq-hall.PNG'
+            },
+            {
+                id: 'sky_gf_closet',
+                name: 'Closet',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/closet.PNG'
+            },
+            {
+                id: 'sky_gf_coat',
+                name: 'Coat',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/coat.PNG'
+            },
+            {
+                id: 'sky_gf_counter',
+                name: 'Counter',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/counter.PNG'
+            },
+            {
+                id: 'sky_gf_delivery',
+                name: 'Delivery',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/delivery.PNG'
+            },
+            {
+                id: 'sky_gf_delivery-entry',
+                name: 'Delivery Entry',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/delivery-entry.PNG'
+            },
+            {
+                id: 'sky_gf_dressing',
+                name: 'Dressing',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/dressing.PNG'
+            },
+            {
+                id: 'sky_gf_geisha-stairs',
+                name: 'Geisha Stairs',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/geisha-stairs.PNG'
+            },
+            {
+                id: 'sky_gf_kitchen',
+                name: 'Kitchen',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/kitchen.PNG'
+            },
+            {
+                id: 'sky_gf_lobby',
+                name: 'Lobby',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/lobby.PNG'
+            },
+            {
+                id: 'sky_gf_lobby-entry',
+                name: 'Lobby Entry',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/lobby-entry.PNG'
+            },
+            {
+                id: 'sky_gf_main-entrance',
+                name: 'Main Entrance',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/main-entrance.PNG'
+            },
+            {
+                id: 'sky_gf_master',
+                name: 'Master',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/master.PNG'
+            },
+            {
+                id: 'sky_gf_north-lobby',
+                name: 'North Lobby',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/north-lobby.PNG'
+            },
+            {
+                id: 'sky_gf_pantry',
+                name: 'Pantry',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/pantry.PNG'
+            },
+            {
+                id: 'sky_gf_reception',
+                name: 'Reception',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/reception.PNG'
+            },
+            {
+                id: 'sky_gf_restaurant',
+                name: 'Restaurant',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/restaurant.PNG'
+            },
+            {
+                id: 'sky_gf_stage',
+                name: 'Stage',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/stage.PNG'
+            },
+            {
+                id: 'sky_gf_sushi',
+                name: 'Sushi',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/sushi.PNG'
+            },
+            {
+                id: 'sky_gf_sushi-corner',
+                name: 'Sushi Corner',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/sushi-corner.PNG'
+            },
+            {
+                id: 'sky_gf_toilet',
+                name: 'Toilet',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/toilet.PNG'
+            },
+            {
+                id: 'sky_gf_vip-stairs',
+                name: 'VIP Stairs',
+                image: '../images/siege/skyscraper/skyscraper-groundfloor/vip-stairs.PNG'
+            },
+
+            //#endregion
+
+            //#region Skyscraper Topfloor
+
+            {
+                id: 'sky_2f_back-stairs',
+                name: 'Back Stairs',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/back-stairs.PNG'
+            },
+            {
+                id: 'sky_2f_catwalk',
+                name: 'Catwalk',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/catwalk.PNG'
+            },
+            {
+                id: 'sky_2f_desk',
+                name: 'Desk',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/desk.PNG'
+            },
+            {
+                id: 'sky_2f_display',
+                name: 'Display',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/display.PNG'
+            },
+            {
+                id: 'sky_2f_dragon',
+                name: 'Dragon',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/dragon.PNG'
+            },
+            {
+                id: 'sky_2f_drum',
+                name: 'Drum',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/drum.PNG'
+            },
+            {
+                id: 'sky_2f_drum-box',
+                name: 'Drum Box',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/drum-box.PNG'
+            },
+            {
+                id: 'sky_2f_expo',
+                name: 'Expo',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/expo.PNG'
+            },
+            {
+                id: 'sky_2f_geisha',
+                name: 'Geisha',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/geisha.PNG'
+            },
+            {
+                id: 'sky_2f_geisha-hall',
+                name: 'Geisha Hall',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/geisha-hall.PNG'
+            },
+            {
+                id: 'sky_2f_geisha-hatch',
+                name: 'Geisha Hatch',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/geisha-hatch.PNG'
+            },
+            {
+                id: 'sky_2f_geisha-stairs',
+                name: 'Geisha Stairs',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/geisha-stairs.PNG'
+            },
+            {
+                id: 'sky_2f_halfwall',
+                name: 'Halfwall',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/halfwall.PNG'
+            },
+            {
+                id: 'sky_2f_karaoke',
+                name: 'Karaoke',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/karaoke.PNG'
+            },
+            {
+                id: 'sky_2f_long',
+                name: 'Long',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/long.PNG'
+            },
+            {
+                id: 'sky_2f_lounge',
+                name: 'Lounge',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/lounge.PNG'
+            },
+            {
+                id: 'sky_2f_museum',
+                name: 'Museum',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/museum.PNG'
+            },
+            {
+                id: 'sky_2f_office',
+                name: 'Office',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/office.PNG'
+            },
+            {
+                id: 'sky_2f_rotate',
+                name: 'Rotate',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/rotate.PNG'
+            },
+            {
+                id: 'sky_2f_short',
+                name: 'Short',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/short.PNG'
+            },
+            {
+                id: 'sky_2f_shrine',
+                name: 'Shrine',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/shrine.PNG'
+            },
+            {
+                id: 'sky_2f_shrine-connector',
+                name: 'Shrine Connector',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/shrine-connector.PNG'
+            },
+            {
+                id: 'sky_2f_tea',
+                name: 'Tea',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/tea.PNG'
+            },
+            {
+                id: 'sky_2f_terrace',
+                name: 'Terrace',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/terrace.PNG'
+            },
+            {
+                id: 'sky_2f_top-back-stairs',
+                name: 'Top Back Stairs',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/top-back-stairs.PNG'
+            },
+            {
+                id: 'sky_2f_vip',
+                name: 'VIP',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/vip.PNG'
+            },
+            {
+                id: 'sky_2f_vip-stairs',
+                name: 'VIP Stairs',
+                image: '../images/siege/skyscraper/skyscraper-topfloor/vip-stairs.PNG'
+            }
+            //#endregion
+        ]
+    },
+    theme: {
+        name: 'Themepark',
+        callouts: [
+            //#region Themepark Groundfloor
+
+            {
+                id: 'th_gf_91',
+                name: '91',
+                image: '../images/siege/theme/theme-groundfloor/91.PNG'
+            },
+            {
+                id: 'th_gf_92',
+                name: '92',
+                image: '../images/siege/theme/theme-groundfloor/92.PNG'
+            },
+            {
+                id: 'th_gf_arcade-stairs',
+                name: 'Arcade Stairs',
+                image: '../images/siege/theme/theme-groundfloor/arcade-stairs.PNG'
+            },
+            {
+                id: 'th_gf_armory',
+                name: 'Armory',
+                image: '../images/siege/theme/theme-groundfloor/armory.PNG'
+            },
+            {
+                id: 'th_gf_barrels',
+                name: 'Barrels',
+                image: '../images/siege/theme/theme-groundfloor/barrels.PNG'
+            },
+            {
+                id: 'th_gf_blue-boiler',
+                name: 'Blue Boiler',
+                image: '../images/siege/theme/theme-groundfloor/blue-boiler.PNG'
+            },
+            {
+                id: 'th_gf_bumper',
+                name: 'Bumper',
+                image: '../images/siege/theme/theme-groundfloor/bumper.PNG'
+            },
+            {
+                id: 'th_gf_coke',
+                name: 'Coke',
+                image: '../images/siege/theme/theme-groundfloor/coke.PNG'
+            },
+            {
+                id: 'th_gf_connector',
+                name: 'Connector',
+                image: '../images/siege/theme/theme-groundfloor/connector.PNG'
+            },
+            {
+                id: 'th_gf_dragon',
+                name: 'Dragon',
+                image: '../images/siege/theme/theme-groundfloor/dragon.PNG'
+            },
+            {
+                id: 'th_gf_dragon-hall',
+                name: 'Dragon Hall',
+                image: '../images/siege/theme/theme-groundfloor/dragon-hall.PNG'
+            },
+            {
+                id: 'th_gf_dragon-stairs',
+                name: 'Dragon Stairs',
+                image: '../images/siege/theme/theme-groundfloor/dragon-stairs.PNG'
+            },
+            {
+                id: 'th_gf_druglab',
+                name: 'Druglab',
+                image: '../images/siege/theme/theme-groundfloor/druglab.PNG'
+            },
+            {
+                id: 'th_gf_drugs-hall',
+                name: 'Drugs Hall',
+                image: '../images/siege/theme/theme-groundfloor/drugs-hall.PNG'
+            },
+            {
+                id: 'th_gf_gong',
+                name: 'Gong',
+                image: '../images/siege/theme/theme-groundfloor/gong.PNG'
+            },
+            {
+                id: 'th_gf_harry-potter',
+                name: 'Harry Potter',
+                image: '../images/siege/theme/theme-groundfloor/harry-potter.PNG'
+            },
+            {
+                id: 'th_gf_lockers',
+                name: 'Lockers',
+                image: '../images/siege/theme/theme-groundfloor/lockers.PNG'
+            },
+            {
+                id: 'th_gf_long',
+                name: 'Long',
+                image: '../images/siege/theme/theme-groundfloor/long.PNG'
+            },
+            {
+                id: 'th_gf_main',
+                name: 'Main',
+                image: '../images/siege/theme/theme-groundfloor/main.PNG'
+            },
+            {
+                id: 'th_gf_maintenance',
+                name: 'Maintenance',
+                image: '../images/siege/theme/theme-groundfloor/maintenance.PNG'
+            },
+            {
+                id: 'th_gf_red-hall',
+                name: 'Red Hall',
+                image: '../images/siege/theme/theme-groundfloor/red-hall.PNG'
+            },
+            {
+                id: 'th_gf_tellers',
+                name: 'Tellers',
+                image: '../images/siege/theme/theme-groundfloor/tellers.PNG'
+            },
+            {
+                id: 'th_gf_throne',
+                name: 'Throne',
+                image: '../images/siege/theme/theme-groundfloor/throne.PNG'
+            },
+            {
+                id: 'th_gf_toilets',
+                name: 'Toilets',
+                image: '../images/siege/theme/theme-groundfloor/toilets.PNG'
+            },
+            {
+                id: 'th_gf_yellow-boiler',
+                name: 'Yellow Boiler',
+                image: '../images/siege/theme/theme-groundfloor/yellow-boiler.PNG'
+            },
+            {
+                id: 'th_gf_yellow-stairs',
+                name: 'Yellow Stairs',
+                image: '../images/siege/theme/theme-groundfloor/yellow-stairs.PNG'
+            }, 
+
+            //#endregion
+
+            //#region Themepark Topfloor
+
+            {
+                id: 'th_2f_balcony',
+                name: 'Balcony',
+                image: '../images/siege/theme/theme-topfloor/balcony.PNG'
+            },
+            {
+                id: 'th_2f_break-room',
+                name: 'Break Room',
+                image: '../images/siege/theme/theme-topfloor/break-room.PNG'
+            },
+            {
+                id: 'th_2f_bunk',
+                name: 'Bunk',
+                image: '../images/siege/theme/theme-topfloor/bunk.PNG'
+            },
+            {
+                id: 'th_2f_bunk-heaven',
+                name: 'Bunk Heaven',
+                image: '../images/siege/theme/theme-topfloor/bunk-heaven.PNG'
+            },
+            {
+                id: 'th_2f_cafe',
+                name: 'Cafe',
+                image: '../images/siege/theme/theme-topfloor/cafe.PNG'
+            },
+            {
+                id: 'th_2f_cafe-hall',
+                name: 'Cafe Hall',
+                image: '../images/siege/theme/theme-topfloor/cafe-hall.PNG'
+            },
+            {
+                id: 'th_2f_cash-hall',
+                name: 'Cash Hall',
+                image: '../images/siege/theme/theme-topfloor/cash-hall.PNG'
+            },
+            {
+                id: 'th_2f_cash-stash',
+                name: 'Cash Stash',
+                image: '../images/siege/theme/theme-topfloor/cash-stash.PNG'
+            },
+            {
+                id: 'th_2f_cctv',
+                name: 'CCTV',
+                image: '../images/siege/theme/theme-topfloor/cctv.PNG'
+            },
+            {
+                id: 'th_2f_daycare',
+                name: 'Daycare',
+                image: '../images/siege/theme/theme-topfloor/daycare.PNG'
+            },
+            {
+                id: 'th_2f_figure',
+                name: 'Figure',
+                image: '../images/siege/theme/theme-topfloor/figure.PNG'
+            },
+            {
+                id: 'th_2f_heaven',
+                name: 'Heaven',
+                image: '../images/siege/theme/theme-topfloor/heaven.PNG'
+            },
+            {
+                id: 'th_2f_init-entry',
+                name: 'Init Entry',
+                image: '../images/siege/theme/theme-topfloor/init-entry.PNG'
+            },
+            {
+                id: 'th_2f_initiation',
+                name: 'Initiation',
+                image: '../images/siege/theme/theme-topfloor/initiation.PNG'
+            },
+            {
+                id: 'th_2f_office',
+                name: 'Office',
+                image: '../images/siege/theme/theme-topfloor/office.PNG'
+            },
+            {
+                id: 'th_2f_showers',
+                name: 'Showers',
+                image: '../images/siege/theme/theme-topfloor/showers.PNG'
+            },
+            {
+                id: 'th_2f_top-dragon',
+                name: 'Top Dragon',
+                image: '../images/siege/theme/theme-topfloor/top-dragon.PNG'
+            },
+            {
+                id: 'th_2f_top-yellow',
+                name: 'Top Yellow',
+                image: '../images/siege/theme/theme-topfloor/top-yellow.PNG'
+            },
+            {
+                id: 'th_2f_upper-arcade',
+                name: 'Upper Arcade',
+                image: '../images/siege/theme/theme-topfloor/upper-arcade.PNG'
+            },
+            {
+                id: 'th_2f_vault',
+                name: 'Vault',
+                image: '../images/siege/theme/theme-topfloor/vault.PNG'
+            },
+            {
+                id: 'th_2f_waiting-room',
+                name: 'Waiting Room',
+                image: '../images/siege/theme/theme-topfloor/waiting-room.PNG'
+            },
+            {
+                id: 'th_2f_yellow-hall',
+                name: 'Yellow Hall',
+                image: '../images/siege/theme/theme-topfloor/yellow-hall.PNG'
+            }
+
+            //#endregion
+        ]
+    },
+    villa: {
+        name: 'Villa',
+        callouts: [
+            //#region Villa Groundfloor
+            //#endregion
+
+            //#region Villa Topfloor
+
+            {
+                id: 'vi_2f_90',
+                name: '90',
+                image: '../images/siege/villa/villa-topfloor/90.PNG'
+            },
+            {
+                id: 'vi_2f_astro',
+                name: 'Astro',
+                image: '../images/siege/villa/villa-topfloor/astro.PNG'
+            },
+            {
+                id: 'vi_2f_astro-stairs',
+                name: 'Astro Stairs',
+                image: '../images/siege/villa/villa-topfloor/astro-stairs.PNG'
+            },
+            {
+                id: 'vi_2f_aviator',
+                name: 'Aviator',
+                image: '../images/siege/villa/villa-topfloor/aviator.PNG'
+            },
+            {
+                id: 'vi_2f_balcony',
+                name: 'Balcony',
+                image: '../images/siege/villa/villa-topfloor/balcony.PNG'
+            },
+            {
+                id: 'vi_2f_bar',
+                name: 'Bar',
+                image: '../images/siege/villa/villa-topfloor/bar.PNG'
+            },
+            {
+                id: 'vi_2f_bathroom',
+                name: 'Bathroom',
+                image: '../images/siege/villa/villa-topfloor/bathroom.PNG'
+            },
+            {
+                id: 'vi_2f_cement',
+                name: 'Cement',
+                image: '../images/siege/villa/villa-topfloor/cement.PNG'
+            },
+            {
+                id: 'vi_2f_closet',
+                name: 'Closet',
+                image: '../images/siege/villa/villa-topfloor/closet.PNG'
+            },
+            {
+                id: 'vi_2f_connector',
+                name: 'Connector',
+                image: '../images/siege/villa/villa-topfloor/connector.PNG'
+            },
+            {
+                id: 'vi_2f_games',
+                name: 'Games',
+                image: '../images/siege/villa/villa-topfloor/games.PNG'
+            },
+            {
+                id: 'vi_2f_games-hallway',
+                name: 'Games Hallway',
+                image: '../images/siege/villa/villa-topfloor/games-hallway.PNG'
+            },
+            {
+                id: 'vi_2f_green',
+                name: 'Green',
+                image: '../images/siege/villa/villa-topfloor/green.PNG'
+            },
+            {
+                id: 'vi_2f_hall-to-red',
+                name: 'Hall To Red',
+                image: '../images/siege/villa/villa-topfloor/hall-to-red.PNG'
+            },
+            {
+                id: 'vi_2f_main-stairs',
+                name: 'Main Stairs',
+                image: '../images/siege/villa/villa-topfloor/main-stairs.PNG'
+            },
+            {
+                id: 'vi_2f_master',
+                name: 'Master',
+                image: '../images/siege/villa/villa-topfloor/master.PNG'
+            },
+            {
+                id: 'vi_2f_master-balcony',
+                name: 'Master Balcony',
+                image: '../images/siege/villa/villa-topfloor/master-balcony.PNG'
+            },
+            {
+                id: 'vi_2f_red-stairs',
+                name: 'Red Stairs',
+                image: '../images/siege/villa/villa-topfloor/red-stairs.PNG'
+            },
+            {
+                id: 'vi_2f_sofa',
+                name: 'Sofa',
+                image: '../images/siege/villa/villa-topfloor/sofa.PNG'
+            },
+            {
+                id: 'vi_2f_statue',
+                name: 'Statue',
+                image: '../images/siege/villa/villa-topfloor/statue.PNG'
+            },
+            {
+                id: 'vi_2f_study',
+                name: 'Study',
+                image: '../images/siege/villa/villa-topfloor/study.PNG'
+            },
+            {
+                id: 'vi_2f_study-window',
+                name: 'Study Window',
+                image: '../images/siege/villa/villa-topfloor/study-window.PNG'
+            },
+            {
+                id: 'vi_2f_top-main',
+                name: 'Top Main',
+                image: '../images/siege/villa/villa-topfloor/top-main.PNG'
+            },
+            {
+                id: 'vi_2f_top-red',
+                name: 'Top Red',
+                image: '../images/siege/villa/villa-topfloor/top-red.PNG'
+            },
+            {
+                id: 'vi_2f_triple',
+                name: 'Triple',
+                image: '../images/siege/villa/villa-topfloor/triple.PNG'
+            },
+            {
+                id: 'vi_2f_trophy',
+                name: 'Trophy',
+                image: '../images/siege/villa/villa-topfloor/trophy.PNG'
+            },
+            {
+                id: 'vi_2f_vault',
+                name: 'Vault',
+                image: '../images/siege/villa/villa-topfloor/vault.PNG'
+            }
+
+            //#endregion
+        ]
+    }
 };
 
 

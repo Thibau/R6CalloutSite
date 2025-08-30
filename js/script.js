@@ -57,6 +57,8 @@ function showRandomCallout(mapName) {
         console.log('SUCCESS:', randomCallout.name);
     };
 
+    document.getElementById('answerSection').style.display = 'block';
+    document.getElementById('mapContainer').style.display = 'flex';
     window.currentCallout = randomCallout;
 }
 
