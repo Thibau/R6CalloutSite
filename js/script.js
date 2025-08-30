@@ -1,5 +1,9 @@
 import mapData from "./seedData.js";
 
+let currentCallout = null;
+let currentMap = null;
+
+
 console.log('available maps:', Object.keys(mapData));
 console.log('Bank callouts:', mapData.bank.callouts.length);
 
@@ -15,12 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mapSelect.appendChild(option);
     };
 
-    mapSelect.addEventListener('change', function() {
-        const selectedMap = this.value;
-        if( selectedMap && mapData[selectedMap]) {
-            startGame(selectedMap);
-        };
-    });
+ 
 
 });
 //#endregion
@@ -59,7 +58,7 @@ function showRandomCallout(mapName) {
 
     document.getElementById('answerSection').style.display = 'block';
     document.getElementById('mapContainer').style.display = 'flex';
-    window.currentCallout = randomCallout;
+    currentCallout = randomCallout;
 }
 
 //#endregion
@@ -100,3 +99,123 @@ function testAllImages() {
 }
 window.testAllImages = testAllImages;
 //#endregion
+
+//#region Startbutton
+const startBtn = document.getElementById('startBtn');
+startBtn.addEventListener('click', function() {
+    const selectedMap = mapSelect.value
+    if( selectedMap && mapData[selectedMap]){
+        currentMap = selectedMap;
+        startGame(selectedMap);
+    };
+})
+//#endregion
+
+
+//#region Submit button
+
+const submitBtn = document.getElementById('submitBtn');
+submitBtn.addEventListener('click', function() {
+    let callout = document.getElementById('calloutInput').value;
+    console.log('Testing', callout);
+    var score = parseInt(document.getElementById('correctScore').innerHTML);
+    console.log(score)
+    console.log(callout, "+", currentCallout.name)
+
+    if(checkAnswer(callout, currentCallout.name)){
+        score++;
+        console.log(score)
+        document.getElementById('correctScore').innerHTML = score;
+        ShowCorrectOverlay("Correct!");
+        setTimeout(() => {
+            showRandomCallout(currentMap);
+        }, 500)
+        document.getElementById('calloutInput').value = "";
+        
+    }
+    else{
+        console.log("Else")
+        ShowCorrectOverlay("Incorrect noob!");
+    }
+
+    var total = parseInt(document.getElementById('totalScore').innerHTML);
+    total++;
+    document.getElementById('totalScore').innerHTML = total;
+    
+})
+
+//#endregion
+
+//#region Skip button
+
+const skipBtn = document.getElementById('skipBtn');
+skipBtn.addEventListener('click', function() {
+    document.getElementById('calloutInput').value = "";
+
+    var total = parseInt(document.getElementById('totalScore').innerHTML);
+    total++;
+    document.getElementById('totalScore').innerHTML = total;
+
+
+    ShowCorrectOverlay("The correct callout was: " + currentCallout.name);
+
+    setTimeout(() => {
+        showRandomCallout(currentMap);
+    }, 1500)
+
+
+})
+
+//#endregion
+
+//#region checkAnswer
+
+function checkAnswer(userInput, correctAnswer) {
+    const answer = userInput.toLowerCase().trim();
+    const correct = correctAnswer.toLowerCase().trim();
+    
+    // Exact match
+    if (answer === correct) return true;
+    
+    // Remove common words/characters that might vary
+    const cleanAnswer = answer.replace(/[-\s]/g, '');
+    const cleanCorrect = correct.replace(/[-\s]/g, '');
+    
+    return cleanAnswer === cleanCorrect;
+}
+
+//#endregion
+
+//#region ShowCorrectOverlay
+function ShowCorrectOverlay(message){
+    const overlay = document.createElement('div');
+    overlay.innerText = message;
+    overlay.style.position = 'fixed';
+    overlay.style.top = '50%';
+    overlay.style.left = '50%';
+    overlay.style.transform = 'translate(-50%, -50%)';
+    overlay.style.background = 'rgba(0, 0, 0, 0.7)';
+    overlay.style.color = 'white';
+    overlay.style.fontSize = '2rem';
+    overlay.style.padding = '20px 40px';
+    overlay.style.borderRadius = '10px';
+    overlay.style.zIndex = '9999';
+    overlay.style.textAlign = 'center';
+
+    document.body.appendChild(overlay);
+
+    if( message.length < 20){
+        setTimeout(() => {
+            overlay.remove();
+        }, 500);
+    }
+    else {
+        setTimeout(() => {
+            overlay.remove();
+        }, 1500);
+    }
+
+}
+//#endregion
+
+
