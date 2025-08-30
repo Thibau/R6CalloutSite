@@ -45,7 +45,8 @@ function showRandomCallout(mapName) {
     console.log('Loading callout:', randomCallout.name);
     console.log('Image path:', randomCallout.image);
     
-    mapImage.src = randomCallout.image;
+    let imagePathUpdated = randomCallout.image;
+    mapImage.src = imagePathUpdated.substring(3);
     mapImage.style.display = 'block';
     
     mapImage.onerror = function() {
