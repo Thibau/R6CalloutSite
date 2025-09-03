@@ -145,6 +145,8 @@ submitBtn.addEventListener('click', function() {
     
 })
 
+
+
 //#endregion
 
 //#region Skip button
@@ -219,4 +221,41 @@ function ShowCorrectOverlay(message){
 }
 //#endregion
 
+
+//#region Enter press
+
+window.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        
+        let callout = document.getElementById('calloutInput').value;
+        console.log('Testing', callout);
+        var score = parseInt(document.getElementById('correctScore').innerHTML);
+        console.log(score)
+        console.log(callout, "+", currentCallout.name)
+
+        if(checkAnswer(callout, currentCallout.name)){
+            score++;
+            console.log(score)
+            document.getElementById('correctScore').innerHTML = score;
+            ShowCorrectOverlay("Correct!");
+            setTimeout(() => {
+                showRandomCallout(currentMap);
+            }, 500)
+            document.getElementById('calloutInput').value = "";
+            
+        }
+        else{
+            console.log("Else")
+            ShowCorrectOverlay("Incorrect noob!");
+        }
+
+        var total = parseInt(document.getElementById('totalScore').innerHTML);
+        total++;
+        document.getElementById('totalScore').innerHTML = total;
+
+    }
+})
+
+//#endregion
 
